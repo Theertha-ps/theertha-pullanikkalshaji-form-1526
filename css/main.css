@@ -1,4 +1,4 @@
-       * {
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -115,20 +115,21 @@
     }
 
     #feedback.error {
-        background-color: #ffb968;
-        color: black;
-        border: 1px solid #f5c6cb;
+        
+        color: rgb(175, 8, 8);
         line-height: 1.6rem;
+        font-weight:bold;
     }
 
     #feedback.success {
-        background-color: #d4edda;
-        color: #063110;
-        border: 1px solid #c3e6cb;
+       
+        color: #0d591e;
         line-height: 1.6rem;
+         font-weight:bold;
     }
 
     /* Smart phone up to 25rem */
+    
     @media (max-width: 25rem) {
 
         .container {
