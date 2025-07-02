@@ -90,7 +90,7 @@ function handleForm() {
         feedbackDiv.style.display = 'block';
     } else {
         // Print a thank you message and show collected data
-        feedbackDiv.innerHTML = `Thank you for the form submission!<br>
+        feedbackDiv.innerHTML = `Thank you for the form submission !<br>
             Name: ${ui.fullName}<br>
             Email: ${ui.email}<br>
             Message: ${ui.message}`;
